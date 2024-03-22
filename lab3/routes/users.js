@@ -6,4 +6,8 @@ router.get('/', function(req, res, next) {
   res.send('respond with a resource');
 });
 
+router.get('/ct1', function(req, res, next) {
+  res.render('greenwich/ct' );
+});
+
 module.exports = router;

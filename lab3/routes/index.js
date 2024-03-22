@@ -10,6 +10,7 @@ router.get('/hn', function(req, res, next) {
   res.render('greenwich/hn' );
 });
 
+
 router.get('/hcm', function(req, res, next) {
   res.render('greenwich/hcm' );
 });
